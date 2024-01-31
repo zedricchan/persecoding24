@@ -1,0 +1,11 @@
+one = input()
+two = input()
+three = input()
+if two != one:
+  print("ENTRY 2 MISMATCH")
+elif three != one:
+  print("ENTRY 3 MISMATCH")
+elif two != one and three != one:
+  print("BOTH MISMATCH")
+else:
+  print("OK")
