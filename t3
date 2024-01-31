@@ -1,0 +1,6 @@
+cyphertext = input()
+decrypted = ''
+decrypted = decrypted + cyphertext[0:2]
+for i in range(2,6):
+  decrypted += cyphertext[i]
+print(decrypted)
