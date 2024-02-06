@@ -1,0 +1,9 @@
+total = 0
+initial = int(input())
+for i in range(initial):
+  if i % 5 == 0:
+    total += i
+if initial % 5 != 0:
+  total += initial
+
+print(total)
